@@ -1,0 +1,18 @@
+{% extends "base.html" %} 
+
+{% block main %} 
+
+    <h1>{{ jewel["name"] }}</h1>
+    <p>
+        Price:{{ jewel["price"] }}
+    </p>
+    <p>
+        Description: {{ jewel["description"] }}
+    </p>
+    <p>
+        <a href="{{ url_for('add_to_cart', jewellery_id=jewel['jewellery_id']) }}">Add to cart</a>
+    </p>
+    <p>
+        <a href="{{ url_for('insert_review') }}">Insert a review</a>
+    </p>
+{% endblock %} 

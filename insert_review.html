@@ -1,0 +1,21 @@
+{% extends "base.html" %} 
+
+{% block main %} 
+<h1>Insert a review of our products!</h1>
+    <form action="" method="POST" novalidate>
+        {{ form.hidden_tag() }}
+        {{ form.name_of_product.label }}
+        {{ form.name_of_product() }}
+        {% for error in form.name_of_product.errors %} 
+            {{ error }}
+        {% endfor %} 
+        <br/>
+        {{ form.review.label }} 
+        {{ form.review() }}
+        {% for error in form.review.errors %} 
+            {{ error }}
+        {% endfor %} 
+        <br/>
+        {{ form.submit() }}
+    </form>
+{% endblock %} 

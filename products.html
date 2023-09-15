@@ -1,0 +1,17 @@
+{% extends "base.html" %} 
+
+{% block main %} 
+
+<h1>All of Our fantastic Jewellery</h1>
+<table>
+    {% for jewel in jewellery %} 
+    <tr>
+        <td>{{ jewel["name"] }}</td>
+        <td>{{ jewel["price"] }}</td>
+        <td>
+            <a href="{{ url_for('jewel',jewellery_id=jewel['jewellery_id'] ) }}">See Details</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
