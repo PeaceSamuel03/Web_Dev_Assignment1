@@ -1,5 +1,5 @@
 # 💎 Online Jewelry Store — Flask Web Development Assignment
-This is a Flask-based web application developed as part of my second-year Web Development assignment for my Computer Science course. The project simulates an online jewelry store with features like product browsing, shopping cart, user accounts, and customer reviews.
+This is a Flask-based web application developed as part of my first-year Web Development assignment for my Computer Science course. The project simulates an online jewelry store with features like product browsing, shopping cart, user accounts, and customer reviews.
 
 ## Technologies Used
 - Python with Flask (backend)
@@ -41,4 +41,4 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ## Credits
 Created by Peace Samuel.
-Part of Year 2 Computer Science, Web Development Module
+Part of Year 1 Computer Science, Web Development Module
