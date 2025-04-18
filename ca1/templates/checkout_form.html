@@ -1,0 +1,15 @@
+{% extends "base.html" %} 
+
+{% block main %} 
+    <form action="" method="POST" novalidate>
+        <h4 class="text-center"> By entering you User ID you will purchase these items</h4>
+        {{ form.hidden_tag() }}
+        {{ form.user_id.label }}
+        {{ form.user_id() }}
+        {% for error in form.user_id.errors %} 
+            {{ error }}
+        {% endfor %} 
+        <br/>
+        {{ form.submit() }}
+    </form>  
+{% endblock %}
