@@ -34,6 +34,10 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ![Homepage](screenshots/homepage.png)
 ![Cart](screenshots/cart.png)
 ![Product Page](screenshots/product.png)
+![Products Page](screenshots/products.png)
+![Register Page](screenshots/register.png)
+![Login Page](screenshots/login.png)
+![Reviews Page](screenshots/reviews.png)
 
 ## Credits
 Created by Peace Samuel.
